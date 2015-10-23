@@ -2,13 +2,13 @@
 
   use Illuminate\Database\Seeder;
 
-  class TagsTableSeeder extends Seeder
+  class ArticlesTagsTableSeeder extends Seeder
   {
     public function run()
     {
-      DB::table('article_tags')->truncate();
+      DB::table('articles_tags')->truncate();
 
-      DB::table('article_tags')->insert([
+      DB::table('articles_tags')->insert([
         [
           'article_id' => '1',
           'tag_id' => '1',
