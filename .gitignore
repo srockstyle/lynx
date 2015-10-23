@@ -2,3 +2,13 @@
 .env.*.php
 .env.php
 .env
+/vendor
+/.env
+.idea
+.sass-cache
+/storage/twig
+/storage/debugbar
+/public/assets
+/source
+/config.yml
+
