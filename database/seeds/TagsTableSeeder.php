@@ -6,9 +6,9 @@
   {
     public function run()
     {
-      DB::table('articles')->truncate();
+      DB::table('tags')->truncate();
 
-      DB::table('articles')->insert([
+      DB::table('tags')->insert([
         [
           'name' => 'Web',
           'created_at' => '2015-01-31 23:59:59',
