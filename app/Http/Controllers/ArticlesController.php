@@ -20,21 +20,14 @@ class ArticlesController extends BaseController
       return view('articles.index')->with(compact('articles'));
     }
 
-    public function getShow(){
+    public function getShow($id){
+      $article = $this->article->find($id);
+      return view('articles.show')->with(compact('article'));
     }
 
-    public function getCreate(){
+    public function getTagIndex($tag_id){
+      $articles = $this->article->all();
+      return view('articles.index')->with(compact('articles'));
     }
 
-    public function getEdit(){
-    }
-
-    public function postCreate(){
-    }
-
-    public function postEdit(){
-    }
-
-    public function postDelete(){
-    }
 }

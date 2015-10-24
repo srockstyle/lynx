@@ -27,7 +27,9 @@ class CreateArticlesTable extends Migration
       Schema::create('articles_tags', function (Blueprint $table) {
          $table->increments('id');
          $table->integer('tag_id');
+         $table->foreign('tag_id')->references('id')->on('tags')->onDelete('cascade');
          $table->integer('article_id');
+         $table->foreign('article_id')->references('id')->on('articles')->onDelete('cascade');
          $table->timestamps();
       });
     }

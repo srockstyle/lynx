@@ -13,7 +13,7 @@
           <tbody>
           @foreach($articles as $article)
             <tr>
-              <td>{{{ $article->title }}}</td>
+              <td><a href="/post/{{{ $article->id }}}">{{{ $article->title }}}</a></td>
               <td>{{{ $article->body }}}</td>
               <td>{{{ $article->created_at }}}</td>
               <td>{{{ $article->updated_at }}}</td>
