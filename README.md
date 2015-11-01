@@ -6,13 +6,10 @@ In Development Process. Release,soon.
 
 ## Features
 
- * Index / Archives
- * Entries
  * Posts / Pages
- * Markdown files
+ * Markdown Edit
  * Themes
  * Plugins
- * Cache
 
 ## Requirements
 
