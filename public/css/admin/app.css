@@ -1,0 +1,22 @@
+/*
+  Adming CSS
+
+  */
+
+#main {
+  padding:10px;
+}
+
+#content {
+  font-size:14px;
+  line-height:200%;
+}
+a:link,a:visited,a:active{
+  color:#335d99;
+}
+a:hover {
+  color:#334866;
+}
+.pure-button a:link {
+  color:#fff;
+}
