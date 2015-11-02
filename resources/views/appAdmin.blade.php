@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Lynx Admin Tools</title>
- <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel="stylesheet">
- <link href="http://purecss.io/css/layouts/side-menu.css" rel="stylesheet">
- <link href="{{asset('/css/admin/app.css')}}" rel="stylesheet">
- <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel="stylesheet">
+  <link href="http://purecss.io/css/layouts/side-menu.css" rel="stylesheet">
+  <link href="{{asset('/css/admin/app.css')}}" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.2.4/riot+compiler.min.js"></script>
 </head>
 <body>
 <div id="layout">
