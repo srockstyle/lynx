@@ -1,8 +1,8 @@
 <?php
 // Default Routing
-Route::get('/', 'Article\ArticlesController@getIndex');
-Route::get('/post/{id}', 'Article\ArticlesController@getShow');
-Route::get('/tag/{id}/post','Article\ArticlesController@getTagIndex');
+Route::get('/api/articles', 'Article\ArticlesController@getIndex');
+Route::get('/api/articles/{id}', 'Article\ArticlesController@getShow');
+Route::get('/api/articles/tag/{id}','Article\ArticlesController@getTagIndex');
 
 // Theme Routing Space
 // none

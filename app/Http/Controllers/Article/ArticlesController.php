@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Article;
 use App\Article;
+use App\Tag;
 use App\Http\Requests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
@@ -12,6 +13,8 @@ class ArticlesController extends BaseController
      Article
      */
     protected $article;
+    protected $tag;
+
     public function __construct(Article $article){
       $this->article = $article;
     }
@@ -26,7 +29,8 @@ class ArticlesController extends BaseController
     }
 
     public function getTagIndex($tag_id){
-      $articles = $this->article->all();
+      $tag = Tag::find($tag_id);
+      $articles = $tag->articles;
       return response()->json($articles);
     }
 

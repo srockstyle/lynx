@@ -6,19 +6,17 @@
         <thead>
           <tr>
             <th>タイトル</th>
-						<th>分類</th>
-            <th>日時</th>
-            <th></th>
-            <th></th>
+            <th>最終日時</th>
+            <th>API</th>
+            <th>削除</th>
           </tr>
           </thead>
           <tbody>
           @foreach($articles as $article)
             <tr  class="pure-table-odd">
               <td><a href="/ln-admin/articles/{{{ $article->id }}}/edit">{{{ $article->title }}}</a></td>
-              <td></td>
               <td>{{{ $article->updated_at }}}</td>
-              <td></td>
+              <td><a href="/api/articles/{{{ $article->id }}}" target="_blank">/api/articles/{{{ $article->id }}}</a></td>
               <td>
 								{!! Form::open(['action' => ['Article\ArticleAdminController@postDelete']]) !!}
 									{!! Form::hidden('id', $article->id) !!}
