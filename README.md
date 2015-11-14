@@ -2,7 +2,7 @@
 
 ## About
 
-'Lynx' is a lightweight blog/site management engine built with [Laravel5](http://laravel.com/).
+'Engine Lynx' is a lightweight blog/site management engine built with [Laravel5](http://laravel.com/).
 
 In Development Process. Release,soon.
 
