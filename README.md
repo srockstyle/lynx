@@ -1,4 +1,6 @@
-# Lynx
+![Lynx](https://raw.githubusercontent.com/srockstyle/engine-lynx/master/public/lynx_logo.png)
+
+## About
 
 'Lynx' is a lightweight blog/site management engine built with [Laravel5](http://laravel.com/).
 
