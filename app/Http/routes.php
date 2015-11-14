@@ -1,5 +1,6 @@
 <?php
 // Default Routing
+Route::get('/', 'WelcomeController@getIndex');
 Route::get('/api/articles', 'Article\ArticlesController@getIndex');
 Route::get('/api/articles/{id}', 'Article\ArticlesController@getShow');
 Route::get('/api/articles/tag/{id}','Article\ArticlesController@getTagIndex');
