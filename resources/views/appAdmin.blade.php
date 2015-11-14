@@ -27,7 +27,7 @@
             <a href="#" class="pure-menu-link">Media</a>
         </li>
 
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tag</a></li>
+        <li class="pure-menu-item"><a href="/ln-admin/tags/" class="pure-menu-link">Tag</a></li>
       </ul>
     </div>
 	</div>
